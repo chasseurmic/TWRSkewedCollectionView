@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1532CBF0192BFC7B00696EFD /* TWRSkewedCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532CBEF192BFC7B00696EFD /* TWRSkewedCollectionView.m */; };
+		1532CBF4192C0AAE00696EFD /* TWRSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532CBF2192C0AAE00696EFD /* TWRSecondViewController.m */; };
+		1532CBF5192C0AAE00696EFD /* TWRSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1532CBF3192C0AAE00696EFD /* TWRSecondViewController.xib */; };
+		15A925B1192A9090009FC4E6 /* TWRMyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A925B0192A9090009FC4E6 /* TWRMyCell.m */; };
+		15A925B3192A90A2009FC4E6 /* TWRMyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15A925B2192A90A2009FC4E6 /* TWRMyCell.xib */; };
+		15C69C66192A8A4F004B907C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C69C65192A8A4F004B907C /* Foundation.framework */; };
+		15C69C68192A8A4F004B907C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C69C67192A8A4F004B907C /* CoreGraphics.framework */; };
+		15C69C6A192A8A4F004B907C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C69C69192A8A4F004B907C /* UIKit.framework */; };
+		15C69C70192A8A4F004B907C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15C69C6E192A8A4F004B907C /* InfoPlist.strings */; };
+		15C69C72192A8A4F004B907C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C69C71192A8A4F004B907C /* main.m */; };
+		15C69C76192A8A4F004B907C /* TWRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C69C75192A8A4F004B907C /* TWRAppDelegate.m */; };
+		15C69C79192A8A4F004B907C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C69C77192A8A4F004B907C /* Main.storyboard */; };
+		15C69C7E192A8A4F004B907C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C69C7D192A8A4F004B907C /* Images.xcassets */; };
+		15C69C85192A8A4F004B907C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C69C84192A8A4F004B907C /* XCTest.framework */; };
+		15C69C86192A8A4F004B907C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C69C65192A8A4F004B907C /* Foundation.framework */; };
+		15C69C87192A8A4F004B907C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C69C69192A8A4F004B907C /* UIKit.framework */; };
+		15C69C8F192A8A4F004B907C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15C69C8D192A8A4F004B907C /* InfoPlist.strings */; };
+		15C69C91192A8A4F004B907C /* SkewedCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C69C90192A8A4F004B907C /* SkewedCollectionViewTests.m */; };
+		15C69C9C192A8A62004B907C /* TWRSkewedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C69C9B192A8A62004B907C /* TWRSkewedView.m */; };
+		15C69C9F192A8EE7004B907C /* TWRCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C69C9E192A8EE7004B907C /* TWRCollectionViewController.m */; };
+		BC6BD394E76440F196E7CE07 /* libPods-SkewedCollectionView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA39793C11B04CC580DE836E /* libPods-SkewedCollectionView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15C69C88192A8A4F004B907C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15C69C5A192A8A4F004B907C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15C69C61192A8A4F004B907C;
+			remoteInfo = SkewedCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AAC2496FE1142278F7C9BE0 /* Pods-SkewedCollectionView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkewedCollectionView.xcconfig"; path = "Pods/Pods-SkewedCollectionView.xcconfig"; sourceTree = "<group>"; };
+		1532CBEE192BFC7B00696EFD /* TWRSkewedCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWRSkewedCollectionView.h; sourceTree = "<group>"; };
+		1532CBEF192BFC7B00696EFD /* TWRSkewedCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWRSkewedCollectionView.m; sourceTree = "<group>"; };
+		1532CBF1192C0AAE00696EFD /* TWRSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWRSecondViewController.h; sourceTree = "<group>"; };
+		1532CBF2192C0AAE00696EFD /* TWRSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWRSecondViewController.m; sourceTree = "<group>"; };
+		1532CBF3192C0AAE00696EFD /* TWRSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWRSecondViewController.xib; sourceTree = "<group>"; };
+		15A925AF192A9090009FC4E6 /* TWRMyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWRMyCell.h; sourceTree = "<group>"; };
+		15A925B0192A9090009FC4E6 /* TWRMyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWRMyCell.m; sourceTree = "<group>"; };
+		15A925B2192A90A2009FC4E6 /* TWRMyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWRMyCell.xib; sourceTree = "<group>"; };
+		15C69C62192A8A4F004B907C /* SkewedCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkewedCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C69C65192A8A4F004B907C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15C69C67192A8A4F004B907C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		15C69C69192A8A4F004B907C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		15C69C6D192A8A4F004B907C /* SkewedCollectionView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkewedCollectionView-Info.plist"; sourceTree = "<group>"; };
+		15C69C6F192A8A4F004B907C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15C69C71192A8A4F004B907C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15C69C73192A8A4F004B907C /* SkewedCollectionView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SkewedCollectionView-Prefix.pch"; sourceTree = "<group>"; };
+		15C69C74192A8A4F004B907C /* TWRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWRAppDelegate.h; sourceTree = "<group>"; };
+		15C69C75192A8A4F004B907C /* TWRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWRAppDelegate.m; sourceTree = "<group>"; };
+		15C69C78192A8A4F004B907C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15C69C7D192A8A4F004B907C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		15C69C83192A8A4F004B907C /* SkewedCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkewedCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C69C84192A8A4F004B907C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		15C69C8C192A8A4F004B907C /* SkewedCollectionViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkewedCollectionViewTests-Info.plist"; sourceTree = "<group>"; };
+		15C69C8E192A8A4F004B907C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15C69C90192A8A4F004B907C /* SkewedCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkewedCollectionViewTests.m; sourceTree = "<group>"; };
+		15C69C9A192A8A62004B907C /* TWRSkewedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWRSkewedView.h; sourceTree = "<group>"; };
+		15C69C9B192A8A62004B907C /* TWRSkewedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWRSkewedView.m; sourceTree = "<group>"; };
+		15C69C9D192A8EE7004B907C /* TWRCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWRCollectionViewController.h; sourceTree = "<group>"; };
+		15C69C9E192A8EE7004B907C /* TWRCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWRCollectionViewController.m; sourceTree = "<group>"; };
+		AA39793C11B04CC580DE836E /* libPods-SkewedCollectionView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkewedCollectionView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15C69C5F192A8A4F004B907C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C69C68192A8A4F004B907C /* CoreGraphics.framework in Frameworks */,
+				15C69C6A192A8A4F004B907C /* UIKit.framework in Frameworks */,
+				15C69C66192A8A4F004B907C /* Foundation.framework in Frameworks */,
+				BC6BD394E76440F196E7CE07 /* libPods-SkewedCollectionView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C69C80192A8A4F004B907C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C69C85192A8A4F004B907C /* XCTest.framework in Frameworks */,
+				15C69C87192A8A4F004B907C /* UIKit.framework in Frameworks */,
+				15C69C86192A8A4F004B907C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15A925AE192A902E009FC4E6 /* TWRSkewedCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				15C69C9A192A8A62004B907C /* TWRSkewedView.h */,
+				15C69C9B192A8A62004B907C /* TWRSkewedView.m */,
+				15A925AF192A9090009FC4E6 /* TWRMyCell.h */,
+				15A925B0192A9090009FC4E6 /* TWRMyCell.m */,
+				15A925B2192A90A2009FC4E6 /* TWRMyCell.xib */,
+				1532CBEE192BFC7B00696EFD /* TWRSkewedCollectionView.h */,
+				1532CBEF192BFC7B00696EFD /* TWRSkewedCollectionView.m */,
+			);
+			name = TWRSkewedCollectionView;
+			sourceTree = "<group>";
+		};
+		15C69C59192A8A4F004B907C = {
+			isa = PBXGroup;
+			children = (
+				15C69C6B192A8A4F004B907C /* SkewedCollectionView */,
+				15C69C8A192A8A4F004B907C /* SkewedCollectionViewTests */,
+				15C69C64192A8A4F004B907C /* Frameworks */,
+				15C69C63192A8A4F004B907C /* Products */,
+				0AAC2496FE1142278F7C9BE0 /* Pods-SkewedCollectionView.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		15C69C63192A8A4F004B907C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15C69C62192A8A4F004B907C /* SkewedCollectionView.app */,
+				15C69C83192A8A4F004B907C /* SkewedCollectionViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15C69C64192A8A4F004B907C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15C69C65192A8A4F004B907C /* Foundation.framework */,
+				15C69C67192A8A4F004B907C /* CoreGraphics.framework */,
+				15C69C69192A8A4F004B907C /* UIKit.framework */,
+				15C69C84192A8A4F004B907C /* XCTest.framework */,
+				AA39793C11B04CC580DE836E /* libPods-SkewedCollectionView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15C69C6B192A8A4F004B907C /* SkewedCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				15A925AE192A902E009FC4E6 /* TWRSkewedCollectionView */,
+				15C69C74192A8A4F004B907C /* TWRAppDelegate.h */,
+				15C69C75192A8A4F004B907C /* TWRAppDelegate.m */,
+				15C69C77192A8A4F004B907C /* Main.storyboard */,
+				15C69C9D192A8EE7004B907C /* TWRCollectionViewController.h */,
+				15C69C9E192A8EE7004B907C /* TWRCollectionViewController.m */,
+				1532CBF1192C0AAE00696EFD /* TWRSecondViewController.h */,
+				1532CBF2192C0AAE00696EFD /* TWRSecondViewController.m */,
+				1532CBF3192C0AAE00696EFD /* TWRSecondViewController.xib */,
+				15C69C7D192A8A4F004B907C /* Images.xcassets */,
+				15C69C6C192A8A4F004B907C /* Supporting Files */,
+			);
+			path = SkewedCollectionView;
+			sourceTree = "<group>";
+		};
+		15C69C6C192A8A4F004B907C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15C69C6D192A8A4F004B907C /* SkewedCollectionView-Info.plist */,
+				15C69C6E192A8A4F004B907C /* InfoPlist.strings */,
+				15C69C71192A8A4F004B907C /* main.m */,
+				15C69C73192A8A4F004B907C /* SkewedCollectionView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15C69C8A192A8A4F004B907C /* SkewedCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				15C69C90192A8A4F004B907C /* SkewedCollectionViewTests.m */,
+				15C69C8B192A8A4F004B907C /* Supporting Files */,
+			);
+			path = SkewedCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		15C69C8B192A8A4F004B907C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15C69C8C192A8A4F004B907C /* SkewedCollectionViewTests-Info.plist */,
+				15C69C8D192A8A4F004B907C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15C69C61192A8A4F004B907C /* SkewedCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C69C94192A8A4F004B907C /* Build configuration list for PBXNativeTarget "SkewedCollectionView" */;
+			buildPhases = (
+				43EADB078C4F47D7AB399CCB /* Check Pods Manifest.lock */,
+				15C69C5E192A8A4F004B907C /* Sources */,
+				15C69C5F192A8A4F004B907C /* Frameworks */,
+				15C69C60192A8A4F004B907C /* Resources */,
+				38ECC081F29547ED9C71E0EF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkewedCollectionView;
+			productName = SkewedCollectionView;
+			productReference = 15C69C62192A8A4F004B907C /* SkewedCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15C69C82192A8A4F004B907C /* SkewedCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C69C97192A8A4F004B907C /* Build configuration list for PBXNativeTarget "SkewedCollectionViewTests" */;
+			buildPhases = (
+				15C69C7F192A8A4F004B907C /* Sources */,
+				15C69C80192A8A4F004B907C /* Frameworks */,
+				15C69C81192A8A4F004B907C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15C69C89192A8A4F004B907C /* PBXTargetDependency */,
+			);
+			name = SkewedCollectionViewTests;
+			productName = SkewedCollectionViewTests;
+			productReference = 15C69C83192A8A4F004B907C /* SkewedCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15C69C5A192A8A4F004B907C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TWR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Touchware;
+				TargetAttributes = {
+					15C69C82192A8A4F004B907C = {
+						TestTargetID = 15C69C61192A8A4F004B907C;
+					};
+				};
+			};
+			buildConfigurationList = 15C69C5D192A8A4F004B907C /* Build configuration list for PBXProject "SkewedCollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15C69C59192A8A4F004B907C;
+			productRefGroup = 15C69C63192A8A4F004B907C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15C69C61192A8A4F004B907C /* SkewedCollectionView */,
+				15C69C82192A8A4F004B907C /* SkewedCollectionViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15C69C60192A8A4F004B907C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1532CBF5192C0AAE00696EFD /* TWRSecondViewController.xib in Resources */,
+				15C69C7E192A8A4F004B907C /* Images.xcassets in Resources */,
+				15A925B3192A90A2009FC4E6 /* TWRMyCell.xib in Resources */,
+				15C69C70192A8A4F004B907C /* InfoPlist.strings in Resources */,
+				15C69C79192A8A4F004B907C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C69C81192A8A4F004B907C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C69C8F192A8A4F004B907C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38ECC081F29547ED9C71E0EF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SkewedCollectionView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43EADB078C4F47D7AB399CCB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15C69C5E192A8A4F004B907C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C69C9F192A8EE7004B907C /* TWRCollectionViewController.m in Sources */,
+				1532CBF0192BFC7B00696EFD /* TWRSkewedCollectionView.m in Sources */,
+				15C69C9C192A8A62004B907C /* TWRSkewedView.m in Sources */,
+				15A925B1192A9090009FC4E6 /* TWRMyCell.m in Sources */,
+				15C69C76192A8A4F004B907C /* TWRAppDelegate.m in Sources */,
+				15C69C72192A8A4F004B907C /* main.m in Sources */,
+				1532CBF4192C0AAE00696EFD /* TWRSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C69C7F192A8A4F004B907C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C69C91192A8A4F004B907C /* SkewedCollectionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15C69C89192A8A4F004B907C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15C69C61192A8A4F004B907C /* SkewedCollectionView */;
+			targetProxy = 15C69C88192A8A4F004B907C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15C69C6E192A8A4F004B907C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15C69C6F192A8A4F004B907C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		15C69C77192A8A4F004B907C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15C69C78192A8A4F004B907C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15C69C8D192A8A4F004B907C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15C69C8E192A8A4F004B907C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15C69C92192A8A4F004B907C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15C69C93192A8A4F004B907C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15C69C95192A8A4F004B907C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AAC2496FE1142278F7C9BE0 /* Pods-SkewedCollectionView.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkewedCollectionView/SkewedCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "SkewedCollectionView/SkewedCollectionView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		15C69C96192A8A4F004B907C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AAC2496FE1142278F7C9BE0 /* Pods-SkewedCollectionView.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkewedCollectionView/SkewedCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "SkewedCollectionView/SkewedCollectionView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		15C69C98192A8A4F004B907C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SkewedCollectionView.app/SkewedCollectionView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkewedCollectionView/SkewedCollectionView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SkewedCollectionViewTests/SkewedCollectionViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		15C69C99192A8A4F004B907C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SkewedCollectionView.app/SkewedCollectionView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkewedCollectionView/SkewedCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "SkewedCollectionViewTests/SkewedCollectionViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15C69C5D192A8A4F004B907C /* Build configuration list for PBXProject "SkewedCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C69C92192A8A4F004B907C /* Debug */,
+				15C69C93192A8A4F004B907C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C69C94192A8A4F004B907C /* Build configuration list for PBXNativeTarget "SkewedCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C69C95192A8A4F004B907C /* Debug */,
+				15C69C96192A8A4F004B907C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C69C97192A8A4F004B907C /* Build configuration list for PBXNativeTarget "SkewedCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C69C98192A8A4F004B907C /* Debug */,
+				15C69C99192A8A4F004B907C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15C69C5A192A8A4F004B907C /* Project object */;
+}
