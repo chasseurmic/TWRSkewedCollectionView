@@ -40,7 +40,10 @@
                    @"http://www.hdwallpapers.in/walls/reflections-wide.jpg",
                    @"http://www.hdwallpapers.in/walls/snow_wonderland-wide.jpg"];
     
-    TWRSkewedCollectionView *collectionView = [[TWRSkewedCollectionView alloc] initWithFrame:self.view.bounds imageUrls:self.imageUrls placeholderImage:[UIImage imageNamed:@"dice"]];
+    TWRSkewedCollectionView *collectionView =
+        [[TWRSkewedCollectionView alloc] initWithFrame:self.view.bounds
+                                             imageUrls:self.imageUrls
+                                      placeholderImage:[UIImage imageNamed:@"dice"]];
     collectionView.skewedDelegate = self;
     collectionView.backgroundColor = [UIColor darkGrayColor];
     [self.view addSubview:collectionView];

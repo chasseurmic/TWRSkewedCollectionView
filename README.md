@@ -29,7 +29,10 @@ TWRSkewedCollectionView is basically a subclass of a UICollectionView. The whole
 This is the minimum amount of code needed to implement TWRSkewedCollectionView:
 
 ```objc
-    TWRSkewedCollectionView *collectionView = [[TWRSkewedCollectionView alloc] initWithFrame:self.view.bounds imageUrls:self.imageUrls placeholderImage:[UIImage imageNamed:@"dice"]];
+TWRSkewedCollectionView *collectionView =
+        [[TWRSkewedCollectionView alloc] initWithFrame:self.view.bounds
+                                             imageUrls:self.imageUrls
+                                      placeholderImage:[UIImage imageNamed:@"dice"]];
     collectionView.skewedDelegate = self;
     collectionView.backgroundColor = [UIColor darkGrayColor];
     [self.view addSubview:collectionView];
@@ -54,7 +57,7 @@ Behind this screen...
 
 Furthermore, since cells are overlapping (and not always in the same direction because scrolling changes their z-order!), the normal UICollectionView delegate methods cannot be used effectively to know which cell has been tapped by the user. 
 
-Your view controller should thus conform to ```TWRSkewedCollectionViewDelegate``` by implementing the following method, which returns the correct index path of the cell tapped by the user:
+Don't worry: all the boring calculations are once again done behind the scenes. Your view controller should just conform to ```TWRSkewedCollectionViewDelegate``` by implementing the following method, which returns the correct index path of the cell tapped by the user:
 
 ```objc
 - (void)skewedCollectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath;
