@@ -38,17 +38,17 @@ TWRSkewedCollectionView *collectionView =
     [self.view addSubview:collectionView];
 ```
 
-- The view is allocated and init'd with an NSArray of image URLs (the whole process of downloading is non-blocking since itàs being handled asynchronously by SDWebImage categories on UIImageView). You even have the option of passing in a UIImage with a placeholder that will be used during the download process of the images.
+- The view is allocated and init'd with an NSArray of image URLs (the whole process of downloading is non-blocking since it's being handled asynchronously by SDWebImage categories on UIImageView). You even have the option of passing in a UIImage with a placeholder that will be used during the download process of the images.
 - You then have to assign the delegate to listen for cells being touched (more on this below). 
 - Finally add the collection view as a subview of your controller's base view.
 
 Dealing with skewed images views inside collection view cells requires some 'magic' stuff. Please check the following screenshots that will give you a rough idea of how the collection view is implemented.
 
-Behind this screen...
+This is the final output...
 
 ![](http://cocoahunter-blog.s3.amazonaws.com/TWRSkewedCollectionView/skewed3.png)
 
-...here's what's going on behind the scenes!
+...and here's what's really going on behind the scenes!
 
 ![](http://cocoahunter-blog.s3.amazonaws.com/TWRSkewedCollectionView/skewed1.png)
 
