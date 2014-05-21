@@ -10,8 +10,6 @@
 #import "TWRSkewedCollectionView.h"
 #import "TWRSecondViewController.h"
 
-static NSString *cellIdentifier = @"kCellIdentifier";
-
 @interface TWRCollectionViewController () <TWRSkewedCollectionViewDelegate>
 
 @property (copy, nonatomic) NSArray *imageUrls;
