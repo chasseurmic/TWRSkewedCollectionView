@@ -32,7 +32,7 @@ This is the minimum amount of code needed to implement TWRSkewedCollectionView:
 TWRSkewedCollectionView *collectionView =
         [[TWRSkewedCollectionView alloc] initWithFrame:self.view.bounds
                                              imageUrls:self.imageUrls
-                                      placeholderImage:[UIImage imageNamed:@"dice"]];
+                                      placeholderImage:[UIImage imageNamed:@"placeholder"]];
     collectionView.skewedDelegate = self;
     collectionView.backgroundColor = [UIColor darkGrayColor];
     [self.view addSubview:collectionView];
