@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TWRCollectionViewController : UIViewController
+@interface TWRCollectionViewController : UIViewController<UICollectionViewDelegate>
 
 @end
