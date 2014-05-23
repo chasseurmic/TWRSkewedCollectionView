@@ -18,7 +18,6 @@
 
 - (instancetype)initWithFrame:(CGRect)frame imageUrls:(NSArray *)imageUrls placeholderImage:(UIImage *)placeholderImage;
 
-@property (nonatomic, weak) id<TWRSkewedCollectionViewDelegate>skewedDelegate;
 @property (nonatomic, assign) CGFloat skewedness;
 @property (nonatomic, copy) NSArray *imageUrls;
 @property (nonatomic, strong) UIImage *placeholderImage;

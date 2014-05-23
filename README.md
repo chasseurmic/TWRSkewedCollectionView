@@ -55,13 +55,6 @@ This is the final output...
 ![](http://cocoahunter-blog.s3.amazonaws.com/TWRSkewedCollectionView/skewed2.png)
 
 
-Furthermore, since cells are overlapping (and not always in the same direction because scrolling changes their z-order!), the normal UICollectionView delegate methods cannot be used effectively to know which cell has been tapped by the user. 
-
-Don't worry: all the boring calculations are once again done behind the scenes. Your view controller should just conform to ```TWRSkewedCollectionViewDelegate``` by implementing the following method, which returns the correct index path of the cell tapped by the user:
-
-```objc
-- (void)skewedCollectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath;
-```
 
 ## Requirements
 

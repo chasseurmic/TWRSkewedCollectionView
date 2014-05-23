@@ -10,7 +10,7 @@
 #import "TWRSkewedCollectionView.h"
 #import "TWRSecondViewController.h"
 
-@interface TWRCollectionViewController () <TWRSkewedCollectionViewDelegate>
+@interface TWRCollectionViewController ()
 
 @property (copy, nonatomic) NSArray *imageUrls;
 
@@ -44,7 +44,7 @@
         [[TWRSkewedCollectionView alloc] initWithFrame:self.view.bounds
                                              imageUrls:self.imageUrls
                                       placeholderImage:[UIImage imageNamed:@"dice"]];
-    collectionView.skewedDelegate = self;
+    collectionView.delegate=self;
     collectionView.backgroundColor = [UIColor darkGrayColor];
     [self.view addSubview:collectionView];
 
@@ -68,7 +68,7 @@
 }
 */
 
--(void)skewedCollectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     NSLog(@"%@", indexPath);
     TWRSecondViewController *secondController = [[TWRSecondViewController alloc] init];
     secondController.imageUrl = [self.imageUrls objectAtIndex:indexPath.row];

@@ -9,10 +9,13 @@
 #import "TWRSkewedCollectionView.h"
 #import "TWRSkewedView.h"
 #import "TWRMyCell.h"
+#import <objc/runtime.h>
 
 static NSString *cellIdentifier = @"kCellIdentifier";
 
 @interface TWRSkewedCollectionView () <TWRSkewedCellDelegate, UICollectionViewDataSource, UICollectionViewDelegate>
+
+@property (nonatomic, weak) id<TWRSkewedCollectionViewDelegate>skewedDelegate;
 
 @end
 
@@ -120,6 +123,28 @@ static NSString *cellIdentifier = @"kCellIdentifier";
             
         default:
             break;
+    }
+}
+
+
+
+- (void)setDelegate:(id<UICollectionViewDelegate>)delegate{
+    
+    if (delegate==self) {
+        
+        [super setDelegate:delegate];
+        return;
+    }
+    _skewedDelegate=(id <TWRSkewedCollectionViewDelegate>)delegate;
+    
+    if([delegate respondsToSelector:@selector(collectionView:didSelectItemAtIndexPath:)]){
+        
+        Method original=class_getInstanceMethod([delegate class], @selector(collectionView:didSelectItemAtIndexPath:));
+        
+        Class delegateClass=[delegate class];
+        
+        class_addMethod(delegateClass,@selector(skewedCollectionView:didSelectItemAtIndexPath:),method_getImplementation(original),method_getTypeEncoding(original));
+        
     }
 }
 
